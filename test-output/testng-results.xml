@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[AssertEqualsPassed]]>
+    </line>
+    <line>
+      <![CDATA[AssertTruePassed]]>
+    </line>
+    <line>
+      <![CDATA[AssertFalsePassed]]>
+    </line>
+    <line>
+      <![CDATA[AssertNotequalsPassed]]>
+    </line>
+    <line>
+      <![CDATA[AssertEqualsPassed on a negative comaprison]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-07-02T22:37:20 IST" name="Suite" finished-at="2020-07-02T22:37:20 IST" duration-ms="70">
+    <groups>
+      <group name="Alpha">
+        <method signature="DemoTest.AssertAllmethods()[pri:0, instance:pkg.DemoTest@184cf7cf]" name="AssertAllmethods" class="pkg.DemoTest"/>
+        <method signature="DemoTest.Parameter_method(int, int)[pri:0, instance:pkg.DemoTest@184cf7cf]" name="Parameter_method" class="pkg.DemoTest"/>
+      </group> <!-- Alpha -->
+      <group name="Beta">
+        <method signature="DemoTest.AssertAllmethods()[pri:0, instance:pkg.DemoTest@184cf7cf]" name="AssertAllmethods" class="pkg.DemoTest"/>
+        <method signature="DemoTest.DataProviderMethod(int, int)[pri:0, instance:pkg.DemoTest@184cf7cf]" name="DataProviderMethod" class="pkg.DemoTest"/>
+      </group> <!-- Beta -->
+    </groups>
+    <test started-at="2020-07-02T22:37:20 IST" name="Test" finished-at="2020-07-02T22:37:20 IST" duration-ms="70">
+      <class name="pkg.DemoTest">
+        <test-method signature="DataProviderMethod(int, int)[pri:0, instance:pkg.DemoTest@184cf7cf]" started-at="2020-07-02T22:37:20 IST" name="DataProviderMethod" data-provider="data-provider" finished-at="2020-07-02T22:37:20 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderMethod -->
+        <test-method signature="Parameter_method(int, int)[pri:0, instance:pkg.DemoTest@184cf7cf]" started-at="2020-07-02T22:37:20 IST" name="Parameter_method" finished-at="2020-07-02T22:37:20 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameter_method -->
+        <test-method signature="AssertAllmethods()[pri:0, instance:pkg.DemoTest@184cf7cf]" started-at="2020-07-02T22:37:20 IST" name="AssertAllmethods" finished-at="2020-07-02T22:37:20 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AssertEqualsPassed]]>
+            </line>
+            <line>
+              <![CDATA[AssertTruePassed]]>
+            </line>
+            <line>
+              <![CDATA[AssertFalsePassed]]>
+            </line>
+            <line>
+              <![CDATA[AssertNotequalsPassed]]>
+            </line>
+            <line>
+              <![CDATA[AssertEqualsPassed on a negative comaprison]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AssertAllmethods -->
+        <test-method signature="DataProviderMethod(int, int)[pri:0, instance:pkg.DemoTest@184cf7cf]" started-at="2020-07-02T22:37:20 IST" name="DataProviderMethod" data-provider="data-provider" finished-at="2020-07-02T22:37:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderMethod -->
+      </class> <!-- pkg.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
